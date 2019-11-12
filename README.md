@@ -18,7 +18,7 @@ A simple `list-group` based typeahead/autocomplete using Bootstrap 4 and Vue 2
 From NPM:
 
 ```
-> npm i vue-bootstrap-typeahead --save
+> npm i hookprod/vue-bootstrap-typeahead --save
 ```
 
 Minified UMD and CommonJS builds are available in the 'dist' folder. The component is also available for use in the browser directly on unpkg:
@@ -119,6 +119,7 @@ maxMatches | `Number` | 10 | Maximum amount of list items to appear.
 minMatchingChars | `Number` | 2 | Minimum matching characters in query before the typeahead list appears
 prepend | `String` | | Text to be prepended to the `input-group`
 append | `String` | | Text to be appended to the `input-group`
+showAll | `Boolean` | Show or hide all options
 
 ### Events
 Name | Description
