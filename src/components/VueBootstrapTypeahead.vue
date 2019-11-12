@@ -34,6 +34,7 @@
       :text-variant="textVariant"
       :maxMatches="maxMatches"
       :minMatchingChars="minMatchingChars"
+      :showAll="showAll"
       @hit="handleHit"
     >
       <!-- pass down all scoped slots -->
@@ -94,7 +95,12 @@ export default {
     },
     placeholder: String,
     prepend: String,
-    append: String
+    append: String,
+    showAll: {
+      type: Boolean,
+      default: false
+    },
+
   },
 
   computed: {
